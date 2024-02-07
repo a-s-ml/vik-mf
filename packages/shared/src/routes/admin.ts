@@ -1,3 +1,3 @@
 export const adminRoutes = {
-    about: '/mf/admin/about',
+    about: '/admin/about',
 }
