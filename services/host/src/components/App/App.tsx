@@ -1,10 +1,10 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Route, Routes } from "react-router-dom";
+import { MainPage } from "../MainPage";
 
 export const App = () => {
   return (
-    <div data-testid={"App.DataTestId"}>
-      <h1>PAGE</h1>
-      <Outlet />
-    </div>
+    <Routes>
+      <Route path="/host" element={<MainPage />} />
+    </Routes>
   );
 };
