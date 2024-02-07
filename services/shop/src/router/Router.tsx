@@ -6,7 +6,7 @@ import {UserCard} from "@packages/shared/src/components/UserCard";
 
 const routes = [
     {
-        path: "/mf/shop",
+        path: "/mf/shop/",
         element: <App />,
         children: [
             {
