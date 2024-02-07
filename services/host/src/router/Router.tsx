@@ -7,7 +7,7 @@ import adminRoutes from 'admin/Router';
 
 export const router = createBrowserRouter([
     {
-        path: "/mf/",
+        path: "/mf/host/",
         element: <App />,
         children: [
             ...shopRoutes,
