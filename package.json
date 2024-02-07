@@ -1,8 +1,7 @@
 {
-  "name": "monorepo-module-federation",
+  "name": "vik-mf",
   "version": "1.0.0",
   "scripts": {
-//    "start": 'запускаем разом все проекты'
   },
   "workspaces": [
     "packages/*",
