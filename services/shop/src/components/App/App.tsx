@@ -1,10 +1,11 @@
-import { Route, Routes } from "react-router-dom";
-import { MainPage } from "../MainPage";
+import React, { useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 
 export const App = () => {
   return (
-    <Routes>
-      <Route path="/shop" element={<MainPage />} />
-    </Routes>
+    <div>
+      <h1>SHOP MODULE</h1>
+      <Outlet />
+    </div>
   );
 };
