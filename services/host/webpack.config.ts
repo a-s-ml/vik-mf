@@ -20,8 +20,8 @@ export default (env: EnvVariables) => {
         public: path.resolve(__dirname, 'public'),
         src: path.resolve(__dirname, 'src'),
     }
-    const SHOP_REMOTE_URL = env.SHOP_REMOTE_URL ?? 'https://80q.ru/shop'
-    const ADMIN_REMOTE_URL = env.ADMIN_REMOTE_URL ?? 'https://80q.ru/admin'
+    const SHOP_REMOTE_URL = env.SHOP_REMOTE_URL ?? 'https://80q.ru/mf/shop'
+    const ADMIN_REMOTE_URL = env.ADMIN_REMOTE_URL ?? 'https://80q.ru/mf/admin'
 
     const config: webpack.Configuration = buildWebpack({
         port: env.port ?? 3000,
