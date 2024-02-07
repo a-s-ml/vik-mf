@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkshop=self.webpackChunkshop||[]).push([[35],{35:(s,e,n)=>{n.r(e),n.d(e,{default:()=>d});var c=n(322),h=(n(533),"/shop/second"),o=n(661);const d=function(){return(0,c.jsxs)("h1",{children:["SHOP",(0,c.jsx)("div",{children:(0,c.jsx)(o.Link,{to:h,children:"go to second page"})})]})}}}]);
-//# sourceMappingURL=35.fdb6b59e863b65b9c3fd.js.map

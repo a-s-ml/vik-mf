@@ -6,15 +6,15 @@ import {UserCard} from "@packages/shared/src/components/UserCard";
 
 const routes = [
     {
-        path: "/mf/shop/",
+        path: "/shop/",
         element: <App />,
         children: [
             {
-                path: '/mf/shop/main',
+                path: '/shop/main',
                 element: <Suspense fallback={'Loading...'}><Shop /></Suspense>
             },
             {
-                path: '/mf/shop/second',
+                path: '/shop/second',
                 element: <Suspense fallback={'Loading...'}>
                     <div style={{color: 'red'}}>
                         <h1>second page</h1>
